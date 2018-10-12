@@ -51,7 +51,7 @@ h5{
 }
 
 #sidebar2{
-	padding-top: 40px;
+	padding-top: 5px;
 	
 }
 
@@ -92,15 +92,12 @@ h5{
 .mainCategory{
 	border-bottom: 2px solid black;
 	padding-bottom: 50px;
-	background-color: #2471A3;
 }
 
 .pic {
-	width: 80%;
+	width: 50%;
 	height:auto;
-	transform: rotate(270deg);
-	border-radius: 70%;
-	padding: 30px;
+	border-radius: 50%;
 }
 
 .box {
