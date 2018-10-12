@@ -1,0 +1,99 @@
+body {
+  margin: 40px;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	height: 700px;
+	width: 300px;
+	background-color: #C0C0C0;
+}
+
+.content {
+	grid-area: content;
+	width: 70%;
+	height: 700px:
+	
+}
+
+.header {
+	grid-area: header;
+	background-color: cyan;
+	height: 120px;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 80px 80px 80px;
+	grid-template-areas:
+	"header header header header header"
+	"..... sidebar content content ....";
+	background-color: #fff;
+	color: #444;
+}
+
+h5{
+
+}
+
+#head{
+	display: flex;
+	box-sizing: content-box;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+#content2{
+	padding-left: 250px;
+}
+
+#sidebar2{
+	padding-top: 30px;
+}
+
+#wBorder {
+	border: 3px solid white;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+#facebook{
+
+}
+
+.items {
+  overflow: hidden;
+}
+.items .item {
+  float: left;
+  width: 50%;
+}
+
+.image{
+	width: 30px;
+	height:auto;
+}
+
+.contact{
+	border-bottom: 2px solid black;
+}
+
+.mainCategory{
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+.pic {
+	width: 170px;
+	height:auto;
+	transform: rotate(270deg);
+	border-radius: 70%;
+}
+
+.box {
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 120%;
+}
